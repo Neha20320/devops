@@ -1,0 +1,50 @@
+#to extract the folder from github:
+
+PS C:\Users\nehas\OneDrive\Desktop\skill devolopment> git configure --global user.name "Neha20320"
+git: 'configure' is not a git command. See 'git --help'.
+PS C:\Users\nehas\OneDrive\Desktop\skill devolopment> git config --global user.name "Neha20320"   
+PS C:\Users\nehas\OneDrive\Desktop\skill devolopment> git config --global user.email "nehasprathyusha@gmail.com"
+PS C:\Users\nehas\OneDrive\Desktop\skill devolopment> git clone https://github.com/Neha20320/devops.git
+Cloning into 'devops'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (6/6), done.
+PS C:\Users\nehas\OneDrive\Desktop\skill devolopment> 
+
+#to change the file path:
+PS C:\Users\nehas\OneDrive\Desktop\skill devolopment> cd devops
+
+#to list the contents in the directory:
+PS C:\Users\nehas\OneDrive\Desktop\skill devolopment\devops> ls     
+
+
+    Directory: C:\Users\nehas\OneDrive\Desktop\skill devolopment\devops
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        04-11-2024     10:51             11 dev.txt
+
+
+#to add the changes in github:
+PS C:\Users\nehas\OneDrive\Desktop\skill devolopment\devops> git add .
+PS C:\Users\nehas\OneDrive\Desktop\skill devolopment\devops> git commit -m "added instructions"
+[main d5eea59] added instructions
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 prod.txt
+PS C:\Users\nehas\OneDrive\Desktop\skill devolopment\devops> git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 279 bytes | 279.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Neha20320/devops.git
+   f43b6ec..d5eea59  main -> main
+PS C:\Users\nehas\OneDrive\Desktop\skill devolopment\devops> git pull origin main
+From https://github.com/Neha20320/devops
+ * branch            main       -> FETCH_HEAD
+Already up to date.
