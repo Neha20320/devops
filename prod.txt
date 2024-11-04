@@ -29,6 +29,9 @@ Mode                 LastWriteTime         Length Name
 
 
 #to add the changes in github:
+#pull git to vs code
+#push vs code to git
+
 PS C:\Users\nehas\OneDrive\Desktop\skill devolopment\devops> git add .
 PS C:\Users\nehas\OneDrive\Desktop\skill devolopment\devops> git commit -m "added instructions"
 [main d5eea59] added instructions
@@ -49,3 +52,4 @@ From https://github.com/Neha20320/devops
  * branch            main       -> FETCH_HEAD
 Already up to date.
 hii nie
+ google meet code :vus-rebp-zrf
